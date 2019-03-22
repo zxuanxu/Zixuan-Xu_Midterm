@@ -16,3 +16,6 @@ This map shows all the in-service stations with at least 15 docks
 
 #Slide 4
 This map shows all the in-service stations that have broken/unavailable docks
+
+Project Page:
+https://zxuanxu.github.io/Zixuan-Xu_Midterm/
