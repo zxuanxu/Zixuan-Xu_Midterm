@@ -1,0 +1,142 @@
+body {
+    padding: 0;
+    overflow: hidden;
+    font-family: colfax, helvetica, arial, sans-serif;
+}
+
+.map {
+    position: absolute;
+    right: 0px;
+    left: 360px;
+    height: 100%;
+    top: 0;
+}
+
+.sidebar {
+    position: absolute;
+    width: 360px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    padding: 20px;
+    background: #EFEDED;
+}
+
+#main-title {
+  position: absolute;
+  width: 360px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: normal;
+  text-align: right;
+  color: #FFFFFF;
+  background-color: #38B5E4;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#intro-content {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: normal;
+  text-align: right;
+  color: #424141;
+  position:absolute;
+  top:100px;
+  height: 320px;
+  padding: 20px;
+}
+
+#notation {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: normal;
+  text-align: center;
+  color: #424141;
+  position:absolute;
+  bottom:50px;
+  height: 20px;
+  left:0;
+  width:360px;
+  padding: 10px;
+}
+
+#next {
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  left: 180px;
+  bottom: 0;
+
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: normal;
+  text-align: center;
+
+  color: #FFFFFF;
+  background: #38B5E4;
+  border: 1px solid #EFEDED;
+  box-sizing: border-box;
+}
+
+#previous {
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  left: 0px;
+  bottom: 0;
+
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: normal;
+  text-align: center;
+
+  color: #FFFFFF;
+  background: #38B5E4;
+  border: 1px solid #EFEDED;
+  box-sizing: border-box;
+}
+
+#title {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: normal;
+  text-align: right;
+  color: #424141;
+  position:absolute;
+  top:420px;
+  height: 40px;
+  left: 0;
+  width:360px;
+  padding: 20px;
+}
+
+#text {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: normal;
+  text-align: right;
+  color: #424141;
+  position:absolute;
+  top:480px;
+  bottom:0;
+  padding: 20px;
+}

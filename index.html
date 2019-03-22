@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css" integrity="sha256-YR4HrDE479EpYZgeTkQfgVJq08+277UXxMLbi/YP69o=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div id="main">
+        <div id='main-title'>Divvy Stations in Chicago</div>
+        <div id='intro-content'>
+          The City of Chicago has a city-wide bike share system
+          called Divvy, started in 2007 by the Chicago Department of Transportation.
+          Now Divvy operates 6,000 bikes and more than 570 stations across Chicago,
+          providing Chicagoans with a convenient, healthy, and affordable transportation alternative.</div>
+          <div id='notation'>Click station for name and address.</div>
+         <button id="next">next</button>
+         <button id='previous' style='display:none;'>previous</button>
+         </div>
+    </div>
+    <!-- Map -->
+    <div id="map" style="height:100%; position:absolute; right:0px; left:360px"></div>
+    <!-- Javascript Imports -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js" integrity="sha256-6BZRSENq3kxI4YYBDqJ23xg0r1GwTHEpvp3okdaIqBw=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore.js" integrity="sha256-O4179En8zabOlPYBNvGp8cF0uh0vnSZpW4Q6Ul1h+8c=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    </body>
+</html>
