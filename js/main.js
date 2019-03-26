@@ -31,6 +31,7 @@ var geojsonMarkerOptions0 = {
 };
 
 //set up the function to add popup information for each marker
+// Does this function get used by the app?
 var popupName = function onEachFeature(feature, layer) {
     // does this feature have a name?
     if (feature.properties.Name) {
